@@ -1,4 +1,5 @@
 body {
+  background-color: #eee;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -7,7 +8,299 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/*NAVBAR TOP*/
+.custom-nav{
+  height:52px;
+  background-color: rgb(40, 62, 74);
+}
+.logo-nav{
+  margin-left:10rem;
+  border-radius: 2px
+}
+.cust-iconSearch{
+  height: 2rem;
+  padding: 0.5rem;
+  padding-top: 0.5rem;
+  background-color: #e1e9ee;
+  border-radius:2px 0px 0px 2px 
+}
+#cust-search{
+  width:250px;
+  border-color: #eee;
+  background-color: #e1e9ee;
+  border-radius: 0px 2px 2px 0px;
+  height: 2rem;
+
+}
+
+.nav-item a{
+  color:#c4ccd1;
+  font-size: 13px
+}
+.cust-imgNav{
+  border: 1px solid #c4ccd1;
+  border-radius:100%;
+}
+
+.navbar-expand-md .navbar-nav .nav-link{
+  color:#c4ccd1;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover{
+  color:white;
+}
+.divisor{ 
+  margin-left:1rem;
+  border: 1px solid #506470;
+  height:50px
+}
+
+.cust-navElement{
+  margin-left:9rem
+}
+
+/*Profile*/
+.profile-container{
+  border:1px solid rgb(180, 180, 180);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.336);
+}
+.banner img{
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.336);
+}
+/*ABOUT*/
+.about-one{
+  margin-left:0px;
+    height: 190px;
+  background-image: url("https://static-exp1.licdn.com/sc/h/3chad3rzxalsf65nuo7hxciac");
+  background-repeat: no-repeat;
+  background-size:cover
+}
+
+.profile-img{
+  width:160px;
+  border: 4px solid #eee;
+  border-radius:100%;
+  margin-top: -104px;
+  box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.336);
+}
+
+.about-two{
+  margin-left: 0;
+  background-color: rgb(245, 245, 245);
+}
+.about-two h5,h4{
+  font-weight: 500;
+}
+
+.text-about{
+  margin-top: 4.5rem
+}
+.text-about a{
+  color:#0073b1;
+  font-weight: 600;
+}
+
+.add-profile-btn{
+  border:0px;
+  padding:9px;
+  background-color: #0073b1;
+  color:white
+}
+.add-profile-btn:hover{
+  background-color: #01507a;
+}
+#more-btn{
+  margin-left: 1rem;
+  font-weight: 600;
+  padding:9px;
+  background-color: white;
+  border: 1px solid black;
+  color:grey;
+}
+#more-btn:hover{
+  background-color:#eee;
+  color:black;
+}
+
+/*EXPERIENCE*/
+.exp-row{
+  margin-right:0px;
+  background-color: rgb(245, 245, 245);
+}
+.info-experience{
+  margin-left:4rem;
+}
+.info-experience p{
+  margin-bottom:10px;
+}
+.info-experience .date{
+  font-size:15px;
+  margin-bottom:10px;
+  color:grey;
+}
+.info-experience h5, .info-experience h6{
+  font-weight: 600;
+}
+
+.icon-exp-job{
+  background-color: rgb(165, 165, 165);
+  color:#c7c7c7;
+  padding: 0.8rem;
+  border-radius:3px;
+}
+.icon-exp-edit{
+  position: absolute;
+  right: 3%;
+bottom: 80%;
+}
+.edit-icon{
+  color:#0073b1;
+  padding:0.5rem;
+  background-color:transparent
+  
+}
+.edit-icon:hover{
+  background-color:rgba(152, 220, 236, 0.555);
+  border-radius: 100%;
+}
+
+/*INFORMATION*/
+
+.collapse-btn{
+  background-color:transparent;
+  color:#0073b1;
+  border:0px;
+  text-decoration: none;
+}
+
+/*CONTACT LIST*/
+.info-list .names{
+  font-weight: 600;
+}
+
+
+/*LOGIN PAGE*/
+#logo{
+  margin-top:10px;
+  margin-left:12rem;
+}
+#logo img{
+
+width: 130px;
+}
+
+#login-option-nav{
+  margin-top:10px;
+  float: right;
+  margin-right:16rem
+}
+.sign-btn{
+  border:0px;
+  padding:6px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color: transparent;
+  color: #0073b1;
+  border:1px solid #0073b1;
+  font-weight: 600;
+}
+.sign-btn:hover{
+  background-color: rgba(113, 207, 214, 0.466);
+}
+#login-option-nav a{
+  color: grey;
+  font-weight: 600;
+}
+#login-option-nav a:hover{
+  color: grey;
+  font-weight: 600;
+  border-radius:4px;
+  background-color:rgb(218, 218, 218);
+}
+#header-loginpage{
+  margin-top: 8rem
+}
+#header-loginpage h1{
+  margin-left:11rem;
+  color:#0073b1;
+  font-size:4rem; 
+}
+
+#header-loginpage #searchbar{
+  margin-left: 11rem;
+  margin-top:6rem;
+  padding-top:0.8rem;
+  padding-bottom:0.8rem;
+  padding-left:2rem;
+  width:450px;
+  border-radius:3px;
+  border:1px solid rgb(218, 218, 218);
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+}
+#login-img-header{
+  border-radius:100%;
+  overflow: hidden;
+  max-width:550px;
+  height: 550px;
+
+}
+
+/*SIGN IN PAGE*/
+.signin-container{
+  border:4px solid #00314b;
+}
+#signin-header{
+  text-align: center;
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform:translate(-50%, -50%)
+}
+#signin-header img{
+    width:90px
+}
+#signin-header-form{
+  margin-top:2rem
+}
+#signin-header-form h3{
+  font-weight: 600;
+  font-size:25px
+}
+#signin-header-form p{
+  color:rgb(90, 90, 90);
+}
+#signin-header-form input{
+  color: black;
+  padding-top:0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+  width:340px
+}
+.confirm-btn{
+  border:0px;
+  padding:0.8rem;
+  padding-left:20px;
+  padding-right:20px;
+  background-color: #0073b1;
+  color: white;
+  border:1px solid #0073b1;
+  font-weight: 600;
+  width:340px
+}
+#help-contact a{
+  color:#0073b1;
+  font-weight: 600;
+}
+#help-contact a:hover{
+  color:#004b74;
+}
+#help-contact p{
+  color:black
 }
